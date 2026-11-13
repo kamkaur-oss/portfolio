@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">MyPortfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Kam Coder</h1>
+            <h2>I'm a Web Developer/Coder</h2>
+
+            <p>
+                I create beautiful and simple websites
+                using HTML, CSS and JavaScript.
+                I also help students to learn programming in easy way.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a full stack developer passionate
+            about learning programming and building
+            creative websites.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+    <div class="skill-box">
+    <button onclick="openPage('html.html')">HTML</button>
+
+    <button onclick="openPage('css.html')">CSS</button>
+
+    <button onclick="openPage('javascript.html')">JavaScript</button>
+
+    <button onclick="openPage('python.html')">Python</button>
+</div>
+
+<script src="script.js"></script>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-box">
+            <h3>Portfolio Website</h3>
+            <p>My first personal portfolio website.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Landing Page</h3>
+            <p>A simple website landing page.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: kamkaur3108@gmail.com</p>
+        <p>Location: India</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
